@@ -3,10 +3,10 @@
 
 これな
 
-    　
+<pre class="brush: perl">
     Test::More tests => 1;
 
     is(1 + 1, 2, 'one plus one is two');
-                  ~~~~~~~~~~~~~~~~~~~~
+</pre>
 
 説明文。みんな何て読んでるの？

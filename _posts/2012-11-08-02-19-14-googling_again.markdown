@@ -1,13 +1,12 @@
 Googleえも〜ん
 ==============
 
-    　
+<pre class="brush: perl">
     use warnings;
     use strict;
     use utf8;
 
     use Test::More;
-
     {
         my $builder = Test::More->builder;
         binmode $builder->output,         ":utf8";
@@ -30,4 +29,4 @@ Googleえも〜ん
     };
 
     done_testing;
-    　
+</pre>

@@ -1,17 +1,13 @@
 再びワーニング！
 ================
 
-    　
+<pre class="brush: plain">
     prove level4.t
-    level4.t .. 1/? Wide character in print at
-    /home/kozaki/perl5/perlbrew/perls/perl-5.16.1/lib/5.16.1/Test/Builder.pm
-    line 1759.
-    Wide character in print at
-    /home/kozaki/perl5/perlbrew/perls/perl-5.16.1/lib/5.16.1/Test/Builder.pm
-    line 1759.
+    level4.t .. 1/? Wide character in print at /home/kozaki/perl5/perlbrew/perls/perl-5.16.1/lib/5.16.1/Test/Builder.pm line 1759.
+    Wide character in print at /home/kozaki/perl5/perlbrew/perls/perl-5.16.1/lib/5.16.1/Test/Builder.pm line 1759.
     level4.t .. ok
     All tests successful.
-    　
+</pre>
 
 <br />
 

@@ -3,7 +3,7 @@
 
 もうこれでいいじゃん
 
-    　
+<pre class="brush: perl">
     use warnings;
     use strict;
     use utf8;
@@ -20,4 +20,4 @@
     };
 
     done_testing;
-    　
+</pre>

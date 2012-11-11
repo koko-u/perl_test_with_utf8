@@ -3,7 +3,7 @@
 
 よくわからんまま呪文を唱える レベル２
 
-    　
+<pre class="brush: perl">
     use strict;
     use warnings;
     use utf8;
@@ -16,4 +16,4 @@
     is(1 + 1, 2, "足し算");
 
     done_testing;
-    　
+</pre>

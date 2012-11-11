@@ -3,7 +3,7 @@ Google助けてよぅ
 
 よくわからんまま更なる呪文を唱える レベル３
 
-    　
+<pre class="brush: perl">
     use warnings;
     use strict;
     use utf8;
@@ -17,4 +17,4 @@ Google助けてよぅ
     is(1 + 1, 2, "足し算");
 
     done_testing;
-    　
+</pre>

@@ -1,14 +1,12 @@
 ワーニング！
 ============
 
-    　
+<pre class="brush: plain">
     $ prove level1.t
-    level1.t .. 1/? Wide character in print at
-    /home/kozaki/perl5/perlbrew/perls/perl-5.16.1/lib/5.16.1/Test/Builder.pm
-    line 1759.
+    level1.t .. 1/? Wide character in print at /home/kozaki/perl5/perlbrew/perls/perl-5.16.1/lib/5.16.1/Test/Builder.pm line 1759.
     level1.t .. ok
     All tests sccessful.
-    　
+</pre>
 
 <br />
 

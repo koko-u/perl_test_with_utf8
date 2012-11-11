@@ -3,7 +3,7 @@
 
 構造化されたテストを書くべく subtest を使用
 
-    　
+<pre class="brush: perl">
     use warnings;
     use strict;
     use utf8;
@@ -19,4 +19,4 @@
     };
 
     done_testing;
-    　
+</pre>
