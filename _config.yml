@@ -1,0 +1,10 @@
+title: 'テスト名を日本語で'
+author: 'KOZAKI Tsuneaki'
+email: kozaki.tsuneaki@gmail.com
+venue: Osaka
+date: 2012-11-08
+
+auto: on
+pygments: true
+markdown: rdiscount
+

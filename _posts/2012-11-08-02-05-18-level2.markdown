@@ -1,0 +1,19 @@
+あー、例の呪文な
+================
+
+よくわからんまま呪文を唱える レベル２
+
+    　
+    use strict;
+    use warnings;
+    use utf8;
+
+    use Test::More;
+
+    binmode STDOUT, ":utf8";    # !追加!
+    binmode STDERR, ":utf8";    # !追加!
+
+    is(1 + 1, 2, "足し算");
+
+    done_testing;
+    　

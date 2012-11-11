@@ -1,0 +1,10 @@
+おまえ誰よ![my icon](img/bakeneko.jpg)
+=====================================
+
+<strong>twitter:</strong> @koko_u<br />
+
+<strong>なまえ:</strong> 小崎つねあき <br />
+
+<strong>しごと:</strong> SI屋さん <br />
+
+<strong>Perl歴:</strong> 10ヶ月(=Perl入学式歴) <br />

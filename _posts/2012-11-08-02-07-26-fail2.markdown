@@ -1,0 +1,19 @@
+失敗！
+======
+
+あれ？
+
+    　
+    prove level2.t
+    level2.t .. 1/? Wide character in print at
+    /home/kozaki/perl5/perlbrew/perls/perl-5.16.1/lib/5.16.1/Test/Builder.pm
+    line 1759.
+    level2.t .. ok
+    All tests successful.
+    　
+
+<br />
+
+Wide character in print !!!
+-----------------------
+

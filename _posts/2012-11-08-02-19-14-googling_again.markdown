@@ -1,0 +1,33 @@
+Googleえも〜ん
+==============
+
+    　
+    use warnings;
+    use strict;
+    use utf8;
+
+    use Test::More;
+
+    {
+        my $builder = Test::More->builder;
+        binmode $builder->output,         ":utf8";
+        binmode $builder->failure_output, ":utf8";
+        binmode $builder->todo_output,    ":utf8";
+
+        no warnings 'redefine';                         # └|∵|┘ﾅﾊ？？？
+        my $code = \&Test::Builder::child;              # └|∵|┘ﾅﾊ？？？
+        *Test::Builder::child = sub {                   # └|∵|┘ﾅﾊ？？？
+            my $builder = $code->(@_);                  # └|∵|┘ﾅﾊ？？？
+            binmode $builder->output,         ":utf8";  # └|∵|┘ﾅﾊ？？？
+            binmode $builder->failure_output, ":utf8";  # └|∵|┘ﾅﾊ？？？
+            binmode $builder->todo_output,    ":utf8";  # └|∵|┘ﾅﾊ？？？
+            return $builder;
+        };
+    }
+
+    subtest "演算するぞ" => sub {
+        is(1 + 1, 2, "足し算");
+    };
+
+    done_testing;
+    　

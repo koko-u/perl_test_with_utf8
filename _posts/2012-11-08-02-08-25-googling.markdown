@@ -1,0 +1,20 @@
+Google助けてよぅ
+=====================
+
+よくわからんまま更なる呪文を唱える レベル３
+
+    　
+    use warnings;
+    use strict;
+    use utf8;
+
+    use Test::More;
+    my $builder = Test::More->builder;             # └|∵|┘ﾅﾊ？
+    binmode $builder->output,         ":utf8";     # └|∵|┘ﾅﾊ？
+    binmode $builder->failure_output, ":utf8";     # └|∵|┘ﾅﾊ？
+    binmode $builder->todo_output,    ":utf8";     # └|∵|┘ﾅﾊ？
+
+    is(1 + 1, 2, "足し算");
+
+    done_testing;
+    　

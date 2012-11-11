@@ -1,0 +1,18 @@
+レベル１
+========
+
+とりあえず書いてみる
+
+    　
+    use strict;
+    use warnings;
+    use utf8;
+
+    use Test::More;
+
+    is(1 + 1, 2, "足し算");
+
+    done_testing;
+    　
+
+

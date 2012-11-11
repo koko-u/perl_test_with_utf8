@@ -1,0 +1,23 @@
+結論
+====
+
+もうこれでいいじゃん
+
+    　
+    use warnings;
+    use strict;
+    use utf8;
+
+    BEGIN {
+        binmode STDOUT, ":utf8";
+        binmode STDERR, ":utf8";
+    }
+
+    use Test::More;
+
+    subtest "演算するぞ" => sub {
+        is(1 + 1, 2, "足し算");
+    };
+
+    done_testing;
+    　
