@@ -1,7 +1,7 @@
 実はまだダメ
 ============
 
-構造化されたテストを書くべく subtest を使用
+subtest を使うとうまく行かない
 
 <pre class="brush: perl">
     use warnings;

@@ -9,4 +9,4 @@
     is(1 + 1, 2, 'one plus one is two');
 </pre>
 
-説明文。みんな何て読んでるの？
+perldoc に $test_name て書いてるやつ。
